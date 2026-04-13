@@ -1,0 +1,17 @@
+{
+  "name": "addu-alumni-portal",
+  "version": "1.0.0",
+  "description": "AdDU Alumni Portal - Ateneo de Davao University",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.11"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vite-plugin-solid": "^2.8.0"
+  }
+}

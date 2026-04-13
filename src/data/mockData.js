@@ -1,0 +1,445 @@
+// ============================================
+// AdDU Alumni Portal — Mock Data
+// ============================================
+
+export const currentUser = {
+  id: 'u001',
+  name: 'Juan C. Dela Cruz',
+  shortName: 'Juan',
+  initials: 'JD',
+  email: 'juan.delacruz@email.com',
+  phone: '+63 912 345 6789',
+  address: '123 Main Street, Davao City, Philippines',
+  studentId: 'ADDU-2015-03247',
+  degree: 'Bachelor of Science in Computer Science',
+  batch: 'Class of 2015',
+  role: 'Alumni',
+  currentJob: 'Software Engineer at Tech Corp',
+  location: 'Davao City, Philippines',
+  profileStrength: 75,
+  avatar: null,
+  honors: ['Cum Laude', "Dean's Lister (6 semesters)"],
+};
+
+export const navItems = [
+  { id: 'dashboard',    label: 'Home',               icon: 'home' },
+  { id: 'news',         label: 'News & Updates',      icon: 'newspaper' },
+  { id: 'profile',      label: 'My Profile',          icon: 'user' },
+  { id: 'calendar',     label: 'Alumni Calendar',     icon: 'calendar', badge: true },
+  { id: 'events',       label: 'Networking & Events', icon: 'network' },
+  { id: 'documents',    label: 'Document Request',    icon: 'file-text' },
+  { id: 'jobs',         label: 'Job Opportunities',   icon: 'briefcase' },
+  { id: 'career',       label: 'Career Opportunities',icon: 'trending-up' },
+  { id: 'donation',     label: 'Donation',            icon: 'heart' },
+];
+
+export const newsItems = [
+  {
+    id: 'n001', category: 'university',
+    title: 'AdDU Celebrates 75 Years of Excellence in Mindanao',
+    excerpt: 'The university marks a historic milestone with a year-long celebration of service, faith, and excellence in education.',
+    date: 'Feb 25, 2025', author: 'University Communications',
+    image: 'https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=80',
+    featured: true,
+  },
+  {
+    id: 'n002', category: 'alumni',
+    title: 'Alumni Startup Raises $2M in Series A Funding',
+    excerpt: 'Tech startup founded by AdDU alumni secures major investment to expand operations.',
+    date: 'Feb 23, 2025', author: 'Alumni Relations',
+    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80',
+  },
+  {
+    id: 'n003', category: 'university',
+    title: 'AdDU Library Opens State-of-the-Art Digital Hub',
+    excerpt: 'New facility features cutting-edge research tools and collaborative spaces for students.',
+    date: 'Feb 10, 2025', author: 'University Communications',
+    image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80',
+  },
+  {
+    id: 'n004', category: 'achievement',
+    title: 'AdDU Engineering Team Wins National Competition',
+    excerpt: 'Student team brings home top honors from the national engineering design competition.',
+    date: 'Feb 20, 2025', author: 'SOSE Communications',
+    image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80',
+  },
+  {
+    id: 'n005', category: 'alumni',
+    title: 'Alumni Medical Mission Serves 2,000 Patients',
+    excerpt: 'Healthcare professionals from the AdDU alumni network conducted a free medical mission.',
+    date: 'Feb 8, 2025', author: 'Alumni Relations',
+    image: 'https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&q=80',
+  },
+  {
+    id: 'n006', category: 'achievement',
+    title: 'Dr. Juan dela Cruz Receives National Award',
+    excerpt: 'AdDU professor honored for outstanding contributions to research and education.',
+    date: 'Feb 12, 2025', author: 'Research Office',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80',
+  },
+  {
+    id: 'n007', category: 'university',
+    title: 'Campus Sustainability Initiative Reduces Carbon Footprint',
+    excerpt: 'Green campus programs show significant results in environmental impact reduction.',
+    date: 'Jan 28, 2025', author: 'University Communications',
+    image: 'https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=600&q=80',
+  },
+  {
+    id: 'n008', category: 'achievement',
+    title: 'AdDU Debate Team Clinches Asian Championship',
+    excerpt: 'Student debaters triumph in the prestigious Asian Debate Championship.',
+    date: 'Feb 2, 2025', author: 'Student Affairs',
+    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80',
+  },
+  {
+    id: 'n009', category: 'alumni',
+    title: 'Class of 2000 Donates ₱5M for New Computer Laboratory',
+    excerpt: 'Silver jubilee batch honors their alma mater with a significant contribution.',
+    date: 'Jan 25, 2025', author: 'Alumni Relations',
+    image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=80',
+  },
+];
+
+export const calendarEvents = [
+  {
+    id: 'e001', type: 'event', date: '2026-02-14',
+    title: "Valentine's Alumni Mixer",
+    time: '6:00 PM', location: 'Abreeza Mall Events Hall',
+    description: 'Meet fellow alumni and build connections over Valentine\'s dinner.',
+  },
+  {
+    id: 'e002', type: 'event', date: '2026-02-20',
+    title: 'Career Services Workshop',
+    time: '10:00 AM', location: 'Zoom',
+    description: 'Professional development workshop for career advancement.',
+  },
+  {
+    id: 'e003', type: 'holiday', date: '2026-02-25',
+    title: 'EDSA People Power Revolution',
+    time: 'All Day', location: '',
+    description: 'National holiday commemorating the People Power Revolution.',
+  },
+  {
+    id: 'e004', type: 'meeting', date: '2026-02-18',
+    title: 'Alumni Council Meeting',
+    time: '3:00 PM', location: 'Finster Hall Room 201',
+    description: 'Quarterly meeting of the Alumni Council.',
+  },
+  {
+    id: 'e005', type: 'deadline', date: '2026-02-28',
+    title: 'Scholarship Application Deadline',
+    time: '11:59 PM', location: '',
+    description: 'Last day to submit scholarship applications for AY 2026-2027.',
+  },
+];
+
+export const upcomingEvents = [
+  {
+    id: 'ev001',
+    title: 'AdDU Alumni Grand Homecoming 2026',
+    date: 'March 15, 2026',
+    dateShort: 'Mar 15',
+    time: '9:00 AM – 5:00 PM',
+    location: 'Finster Auditorium, AdDU Campus',
+    type: 'onsite',
+    attending: 348,
+    featured: true,
+    description: 'Reconnect with batchmates and celebrate decades of Atenean excellence. Featuring a mass, campus tour, cultural show, and grand dinner.',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80',
+    fullAddress: 'Ateneo de Davao University, E. Jacinto Street, Davao City, 8000 Philippines',
+    spotsAvailable: true,
+  },
+  {
+    id: 'ev002',
+    title: 'Career Networking Mixer',
+    date: 'March 28, 2026',
+    dateShort: 'Mar 28',
+    time: '6:00 PM – 9:00 PM',
+    location: 'Abreeza Mall, Davao City',
+    type: 'onsite',
+    attending: 120,
+    description: 'An evening of professional networking with alumni across industries. Light refreshments and career talks.',
+    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80',
+    fullAddress: 'Abreeza Mall Events Hall, JP Laurel Ave, Davao City',
+    spotsAvailable: true,
+  },
+  {
+    id: 'ev003',
+    title: 'Digital Marketing Bootcamp',
+    date: 'April 20, 2026',
+    dateShort: 'Apr 20',
+    time: '9:00 AM – 4:00 PM',
+    location: 'AdDU Innovation Hub',
+    type: 'onsite',
+    attending: 65,
+    description: 'A full-day intensive workshop covering SEO, social media strategy, content marketing, and analytics.',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80',
+    fullAddress: 'AdDU Innovation Hub, Jacinto Extension, Davao City',
+    spotsAvailable: true,
+    category: 'seminar',
+  },
+  {
+    id: 'ev004',
+    title: 'Leadership & Management Seminar',
+    date: 'May 3, 2026',
+    dateShort: 'May 3',
+    time: '1:00 PM – 5:00 PM',
+    location: 'Zoom Webinar',
+    type: 'online',
+    attending: 150,
+    description: 'Develop your leadership skills with executive coaches and industry leaders.',
+    image: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80',
+    spotsAvailable: true,
+    category: 'seminar',
+  },
+  {
+    id: 'ev005',
+    title: 'Guest Lecture Program — CS Dept.',
+    date: 'April 12, 2026',
+    dateShort: 'Apr 12',
+    time: '10:00 AM – 12:00 PM',
+    location: 'Room 301, Jubilee Building',
+    type: 'onsite',
+    attending: 40,
+    description: 'Share your industry experience with current CS students. The department invites alumni to deliver a 2-hour guest lecture.',
+    image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80',
+    fullAddress: 'Ateneo de Davao University, E. Jacinto Street, Davao City, 8000 Philippines',
+    spotsAvailable: true,
+    category: 'teaching',
+  },
+  {
+    id: 'ev006',
+    title: 'Online Mentorship Matching',
+    date: 'Open Enrollment',
+    dateShort: '—',
+    time: 'Flexible schedule',
+    location: 'Virtual — Google Meet',
+    type: 'online',
+    attending: 0,
+    description: 'Become a mentor for graduating students. Get matched with mentees in your field.',
+    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80',
+    spotsAvailable: true,
+    category: 'teaching',
+  },
+];
+
+export const pastEvents = [
+  {
+    id: 'pe001',
+    title: 'AdDU Alumni Homecoming 2025',
+    date: 'March 22, 2025',
+    time: '9:00 AM – 6:00 PM',
+    location: 'Finster Auditorium, AdDU Campus',
+    attended: 420,
+    userAttended: true,
+    description: "A day of reconnecting with fellow Ateneans — featuring a thanksgiving mass, campus heritage walk,",
+    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80',
+  },
+  {
+    id: 'pe002',
+    title: 'Tech Career Summit 2025',
+    date: 'January 18, 2025',
+    time: '10:00 AM – 4:00 PM',
+    location: 'SMX Convention Center, Davao',
+    attended: 215,
+    userAttended: false,
+    description: 'Industry leaders shared insights on tech career paths, with booths from major companies recruiting Atenean',
+    image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&q=80',
+  },
+];
+
+export const alumniDirectory = [
+  {
+    id: 'a001', initials: 'MS', name: 'Maria Santos',
+    degree: 'BS Accountancy', batch: 'Batch 2018',
+    job: 'Senior Auditor, SGV & Co.', location: 'Davao City',
+    online: true,
+  },
+  {
+    id: 'a002', initials: 'CR', name: 'Carlos Reyes',
+    degree: 'BS Computer Science', batch: 'Batch 2016',
+    job: 'Software Engineer, Accenture', location: 'Makati City',
+    online: false,
+  },
+  {
+    id: 'a003', initials: 'AL', name: 'Angela Lim',
+    degree: 'AB Communications', batch: 'Batch 2020',
+    job: 'Marketing Manager, Globe', location: 'Taguig City',
+    online: true,
+  },
+  {
+    id: 'a004', initials: 'PG', name: 'Patrick Gomez',
+    degree: 'BS Nursing', batch: 'Batch 2015',
+    job: 'Charge Nurse, SPM Hospital', location: 'Davao City',
+    online: false,
+  },
+  {
+    id: 'a005', initials: 'RL', name: 'Rosa Luna',
+    degree: 'BS Education', batch: 'Batch 2019',
+    job: 'Grade School Teacher, AdDU', location: 'Davao City',
+    online: true,
+  },
+  {
+    id: 'a006', initials: 'BT', name: 'Ben Torres',
+    degree: 'BS Engineering', batch: 'Batch 2014',
+    job: 'Civil Engineer, DPWH', location: 'Quezon City',
+    online: false,
+  },
+];
+
+export const mentors = [
+  {
+    id: 'm001', initials: 'EV', name: 'Dr. Elena Villanuev',
+    title: 'Chief Marketing Officer', company: 'Jollibee Foods Corp.',
+    experience: '18 yrs exp.', location: 'Makati City', mode: 'Online',
+    rating: 4.9, mentees: 12,
+    skills: ['Brand Strategy', 'Digital Marketing', 'Consumer Insights'],
+    bio: 'Award-winning marketer with 18 years of experience building iconic Philippine brands. Passionate about mentoring the next generation of Atenean leaders.',
+    degree: 'AB Communication', batch: 'Batch 2008',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80',
+  },
+  {
+    id: 'm002', initials: 'MA', name: 'Engr. Marco Aquino',
+    title: 'VP of Engineering', company: 'Globe Telecom',
+    experience: '15 yrs exp.', location: 'Taguig City', mode: 'Online & Onsite',
+    rating: 4.8, mentees: 8,
+    skills: ['Software Architecture', 'Cloud Computing', 'Team Leadership'],
+    bio: 'Engineering leader with deep expertise in telco infrastructure and software development.',
+    degree: 'BS Computer Engineering', batch: 'Batch 2010',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80',
+  },
+  {
+    id: 'm003', initials: 'SB', name: 'Atty. Sofia Batara',
+    title: 'Senior Partner', company: 'Batara & Associates Law',
+    experience: '12 yrs exp.', location: 'Davao City', mode: 'Onsite',
+    rating: 4.7, mentees: 5,
+    skills: ['Corporate Law', 'Contract Negotiation', 'Legal Research'],
+    bio: 'Experienced lawyer specializing in corporate and commercial law in Mindanao.',
+    degree: 'AB Political Science', batch: 'Batch 2012',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80',
+  },
+];
+
+export const careerMilestones = [
+  {
+    id: 'cm001',
+    title: 'Software Engineer',
+    company: 'Tech Corp Philippines',
+    period: '2023 – Present',
+    description: 'Leading full-stack development of enterprise web applications using React and Node.js.',
+  },
+  {
+    id: 'cm002',
+    title: 'Junior Developer',
+    company: 'StartUp Davao Inc.',
+    period: '2019 – 2023',
+    description: 'Built mobile-first web apps and REST APIs for local government digital services.',
+  },
+  {
+    id: 'cm003',
+    title: 'IT Intern',
+    company: 'Ateneo de Davao University',
+    period: '2015 – 2016',
+    description: "Assisted in maintaining the university's student portal and internal tools.",
+  },
+];
+
+export const notifications = [
+  {
+    id: 'notif001', type: 'event', unread: true,
+    title: 'Event Reminder',
+    message: 'AdDU Alumni Grand Homecoming 2026 is in 3 days! Don\'t forget to register.',
+    time: '1h ago',
+  },
+  {
+    id: 'notif002', type: 'document', unread: true,
+    title: 'Document Ready for Pickup',
+    message: "Your Transcript of Records is now ready for pickup at the Registrar's Office.",
+    time: '20h ago',
+  },
+  {
+    id: 'notif003', type: 'job', unread: true,
+    title: 'New Job Match',
+    message: 'A new Senior Software Engineer position matches your profile at Tech Innovators',
+    time: 'Yesterday',
+  },
+  {
+    id: 'notif004', type: 'announcement', unread: false,
+    title: 'New Scholarship Program',
+    message: 'AdDU announces ₱10M scholarship fund for STEM students. Learn more about',
+    time: 'Yesterday',
+  },
+  {
+    id: 'notif005', type: 'event', unread: false,
+    title: 'Career Networking Mixer',
+    message: 'Join us for an evening of professional networking on March 28. Register',
+    time: '2d ago',
+  },
+  {
+    id: 'notif006', type: 'achievement', unread: false,
+    title: 'Profile Milestone',
+    message: 'You\'ve reached 75% profile completion! Complete your profile to unlock all features.',
+    time: '3d ago',
+  },
+];
+
+export const chatMessages = [
+  {
+    id: 'msg001', sender: 'system',
+    text: 'You are now connected with Maria Santos.',
+    time: null,
+  },
+  {
+    id: 'msg002', sender: 'self',
+    text: "Hi Maria! I'm Juan from BS Computer Science, Batch 2015. Great to connect with a fellow Atenean!",
+    time: '10:28 AM', status: 'read',
+  },
+  {
+    id: 'msg003', sender: 'other',
+    text: "Hey Juan! Nice to meet you. I'm from BS Accountancy, Batch 2018. How's everything going?",
+    time: '10:29 AM',
+  },
+];
+
+export const quickActions = [
+  { id: 'qa-events',    label: 'Events',    icon: 'calendar',   badge: 2,   color: '#2235c0', screen: 'events' },
+  { id: 'qa-documents', label: 'Documents', icon: 'file',       badge: 3,   color: '#7c3aed', screen: 'documents' },
+  { id: 'qa-jobs',      label: 'Jobs',      icon: 'briefcase',  badge: 2,   color: '#059669', screen: 'jobs' },
+  { id: 'qa-donate',    label: 'Donate',    icon: 'heart',      badge: null, color: '#dc2626', screen: 'donation' },
+];
+
+export const jobs = [
+  {
+    id: 'j001',
+    title: 'Senior Software Engineer',
+    company: 'Tech Innovators PH',
+    location: 'Davao City / Remote',
+    type: 'Full-time',
+    salary: '₱80,000 – ₱120,000',
+    posted: '2 days ago',
+    description: 'Join our growing engineering team to build scalable web applications.',
+    tags: ['React', 'Node.js', 'AWS'],
+  },
+  {
+    id: 'j002',
+    title: 'Marketing Manager',
+    company: 'Aboitiz Group',
+    location: 'Davao City',
+    type: 'Full-time',
+    salary: '₱60,000 – ₱90,000',
+    posted: '5 days ago',
+    description: 'Lead brand campaigns and digital marketing initiatives for Mindanao.',
+    tags: ['Marketing', 'Brand Strategy', 'Digital'],
+  },
+  {
+    id: 'j003',
+    title: 'Financial Analyst',
+    company: 'BDO Unibank',
+    location: 'Makati City',
+    type: 'Full-time',
+    salary: '₱45,000 – ₱65,000',
+    posted: '1 week ago',
+    description: 'Analyze financial data and prepare reports for executive decision-making.',
+    tags: ['Finance', 'Excel', 'CPA preferred'],
+  },
+];
