@@ -1,36 +1,49 @@
-## Usage
+## Montañer, Lawrence Andrew D.
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+#### Framework: SOLID JS
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+#### Module: Networking & Events
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+#### Installation
+node -v
+npm -v
+npm create solid@latest
+npm install
+npm run dev
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+### AI Tools:
+1. Claude (Premium)
 
-## Available Scripts
+### Prompt:
+You are an experienced frontend developer with expertise in building modern web components using the SOLID JS framework. Your task is to take UI designs from the provided screenshots and turn them into a complete, responsive frontend web application using SOLID JS, focusing only on the frontend—no backend, database, or authentication features are required.
 
-In the project directory, you can run:
+The project should be structured using a modular, component-based approach, where each major UI section—such as the navigation bar, main layout, cards, forms, and modals—is created as an independent, reusable SOLID JS component.
 
-### `npm run dev` or `npm start`
+The final design should closely replicate the original screenshots, maintaining accurate spacing, typography, color schemes, and visual hierarchy for a pixel-perfect result. All styling should be implemented using scoped CSS inside SOLID JS components, with optional global CSS variables to ensure consistent theming for colors, fonts, and spacing.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The interface must be fully responsive across desktop, tablet, and mobile devices. Use flexible layout systems like Flexbox or CSS Grid, along with proper breakpoints to ensure smooth adaptation across screen sizes. Interactivity should be handled using SOLID JS reactivity and state management, including features such as dropdowns, toggles, tabs, and modals. Any data used should be static or mock JSON—no real backend integration.
 
-The page will reload if you make edits.<br>
+Your code should be clean, organized, and easy to understand, written in modern JavaScript using ES modules and properly commented to explain each component’s purpose. The final output should include a complete, runnable frontend project structure with an index.html file, a main entry JavaScript file, and all necessary component files arranged logically so the application can be run smoothly in a modern browser using a simple local development server.
 
-### `npm run build`
+#### Screenshots
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
-
-## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
+![alt text](image.png)
+![alt text](image-9.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
+![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
+![alt text](image-19.png)
